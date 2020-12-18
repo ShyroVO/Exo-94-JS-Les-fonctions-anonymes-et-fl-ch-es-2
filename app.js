@@ -5,3 +5,6 @@ let tableauDeux = ["valeur1", "valeur2", "valeur3", "valeur4", "valeur5", "bidul
 
 let tableauExposant = tableau => tableau % tableau;
 
+let tableauT = tableauExposant(tableauUn);
+
+console.log(tableauT)
